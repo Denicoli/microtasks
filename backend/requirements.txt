@@ -1,0 +1,5 @@
+fastapi
+uvicorn
+sqqlalchemy
+asyncpg
+psycopg2
