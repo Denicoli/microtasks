@@ -10,6 +10,7 @@ class TaskCreate(TaskBase):
 
 class Task(TaskBase):
     id: int
+    completed: bool
 
     class Config:
         orm_mode = True
